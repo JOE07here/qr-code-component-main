@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --White: hsl(0, 0%, 100%);
+--Light-gray: hsl(212, 45%, 89%);
+--Grayish-blue: hsl(220, 15%, 55%);
+--Dark-blue: hsl(218, 44%, 22%);
+}
+body{
+    background-color:var(--Light-gray);
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container{
+    margin:0 auto;
+    margin:0 1.2rem;   
+}
+
+.card{
+    background-color:var(--White);
+    padding:1.8rem;
+    border-radius: 1.7rem;
+    text-align: center;
+}
+
+.card img{
+    width: 100%;
+}
+
+.text{
+    padding: 1rem;
+}
+
+.text h2{
+padding-bottom: 1rem;
+}
